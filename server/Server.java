@@ -1,4 +1,5 @@
 import java.rmi.Naming;
+import java.rmi.registry.LocateRegistry;
 
 public class Server {
    public Server() {}
@@ -7,7 +8,7 @@ public class Server {
       try { 
          int port = 3333;
 
-          java.rmi.registry.LocateRegistry.createRegistry(port);
+          LocateRegistry.createRegistry(port);
 
           Naming.rebind(String.format("rmi://localhost:%s/Distance", port), new Distance());
 
@@ -18,3 +19,4 @@ public class Server {
       }
    }
 }
+
