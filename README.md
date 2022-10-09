@@ -8,13 +8,13 @@
 javac *.java
 ```
 
-<p>Com isso agora é possível subir o servidor RMI como comando:</p>
+<p>Com isso agora é possível subir o servidor RMI com o comando:</p>
 
 ```
 start rmiregistry
 ```
 
-<p>Por fim para subir o servidor execute o comendo:</p>
+<p>Por fim para subir o servidor execute o comando:</p>
 
 ```
 java Server.java
@@ -28,7 +28,7 @@ java Server.java
 javac *.java
 ```
 
-<p>Por fim para executar o cliente execute o comando:</p>
+<p>Por fim para executar o cliente utilize o comando:</p>
 
 ```
 java Client.java
